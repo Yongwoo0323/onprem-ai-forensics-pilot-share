@@ -40,7 +40,7 @@ Ollama와 Qwen2.5를 이용한 단일 Windows 환경에서 CLI 입력 이력, GU
 | 질문 | 확인한 결과 | 근거 |
 |---|---|---|
 | CLI에서 무엇을 확인했는가? | 질문 3개, ALPHA 식별 문자열, `/bye` | 원본 history 사본을 읽어 확인; 원본은 공유 제외 |
-| GUI 대화가 저장되었는가? | SQL 조회 6건: user 3건, assistant 3건 | [검증 집계](data/verified_summary.json), [대화 CSV에서 정리한 사본](data/messages_sanitized.json) |
+| GUI 대화가 저장되었는가? | SQL 조회 6건: user 3건, assistant 3건 | [검증 집계](data/verified_summary.json), [실험 대화 기록](docs/CONVERSATION.md) |
 | 삭제 후 SQL로 대화를 조회할 수 있었는가? | `messages` 0건 | 삭제 후 사본의 SQL 조회 |
 | 삭제 후 문자열도 모두 사라졌는가? | BETA 문자열 3곳 잔존 | main DB 바이트 검색 |
 | 잔존 위치는 어디인가? | 5번 페이지, 오프셋 18915·19416·19686 | 페이지 크기 4096; 오프셋은 파일 시작에서 0 기준 |
@@ -63,6 +63,7 @@ Ollama와 Qwen2.5를 이용한 단일 Windows 환경에서 CLI 입력 이력, GU
 
 | 파일 | 내용 |
 |---|---|
+| [docs/CONVERSATION.md](docs/CONVERSATION.md) | 실험 질문·응답을 순서대로 읽는 열람용 문서 |
 | [docs/METHODS.md](docs/METHODS.md) | 분석 절차, SQL, 페이지 계산 방식, 검증 범위 |
 | [scripts/analyze.py](scripts/analyze.py) | 임시 사본의 SQL 조회, main DB 식별 문자열 검색, SHA-256 비교 |
 | [data/verified_summary.json](data/verified_summary.json) | 스냅샷별 집계와 바이트 위치 |
