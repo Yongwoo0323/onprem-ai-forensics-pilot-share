@@ -1,0 +1,128 @@
+{
+  "snapshots": [
+    {
+      "path": "Deletion_Experiment/AfterDeletion/db.sqlite",
+      "page_size": 4096,
+      "tables": [
+        "settings",
+        "chats",
+        "messages",
+        "sqlite_sequence",
+        "tool_calls",
+        "attachments",
+        "users"
+      ],
+      "messages_count": 0,
+      "roles": {},
+      "messages_root_page": 5,
+      "marker": "FORENSIC-TEST-2026-BETA",
+      "main_db_marker_hits": [
+        {
+          "offset": 18915,
+          "page": 5
+        },
+        {
+          "offset": 19416,
+          "page": 5
+        },
+        {
+          "offset": 19686,
+          "page": 5
+        }
+      ],
+      "hit_page_headers": [
+        {
+          "page": 5,
+          "btree_type": 13,
+          "cell_count": 0,
+          "is_messages_root": true
+        }
+      ]
+    },
+    {
+      "path": "Deletion_Experiment/BeforeDeletion/db.sqlite",
+      "page_size": 4096,
+      "tables": [
+        "settings",
+        "chats",
+        "messages",
+        "sqlite_sequence",
+        "tool_calls",
+        "attachments",
+        "users"
+      ],
+      "messages_count": 6,
+      "roles": {
+        "assistant": 3,
+        "user": 3
+      },
+      "messages_root_page": 5,
+      "marker": "FORENSIC-TEST-2026-BETA",
+      "main_db_marker_hits": [],
+      "hit_page_headers": []
+    },
+    {
+      "path": "Evidence/SQLite/db.sqlite",
+      "page_size": 4096,
+      "tables": [
+        "settings",
+        "chats",
+        "messages",
+        "sqlite_sequence",
+        "tool_calls",
+        "attachments",
+        "users"
+      ],
+      "messages_count": 0,
+      "roles": {},
+      "messages_root_page": 5,
+      "marker": "FORENSIC-TEST-2026-BETA",
+      "main_db_marker_hits": [],
+      "hit_page_headers": []
+    },
+    {
+      "path": "GUI_Experiment/After/db.sqlite",
+      "page_size": 4096,
+      "tables": [
+        "settings",
+        "chats",
+        "messages",
+        "sqlite_sequence",
+        "tool_calls",
+        "attachments",
+        "users"
+      ],
+      "messages_count": 6,
+      "roles": {
+        "assistant": 3,
+        "user": 3
+      },
+      "messages_root_page": 5,
+      "marker": "FORENSIC-TEST-2026-BETA",
+      "main_db_marker_hits": [],
+      "hit_page_headers": []
+    },
+    {
+      "path": "GUI_Experiment/Before/db.sqlite",
+      "page_size": 4096,
+      "tables": [
+        "settings",
+        "chats",
+        "messages",
+        "sqlite_sequence",
+        "tool_calls",
+        "attachments",
+        "users"
+      ],
+      "messages_count": 0,
+      "roles": {},
+      "messages_root_page": 5,
+      "marker": "FORENSIC-TEST-2026-BETA",
+      "main_db_marker_hits": [],
+      "hit_page_headers": []
+    }
+  ],
+  "original_content_unchanged": true,
+  "file_count": 54,
+  "verification_date": "2026-10-12"
+}
