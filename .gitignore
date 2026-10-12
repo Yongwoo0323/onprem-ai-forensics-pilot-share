@@ -1,0 +1,10 @@
+# Original evidence and local analysis are never published.
+private/
+*.sqlite*
+*.db
+*.zip
+__pycache__/
+*.pyc
+.env*
+*history_copy*
+*all_processes*
