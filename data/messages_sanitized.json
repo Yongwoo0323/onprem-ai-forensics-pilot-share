@@ -1,0 +1,38 @@
+[
+  {
+    "sequence": 1,
+    "role": "user",
+    "content": "안녕하세요. 현재 실행 중인 AI 모델이 무엇인지 알려주세요.",
+    "model_name": ""
+  },
+  {
+    "sequence": 2,
+    "role": "assistant",
+    "content": "저는 AI 모델을 포함하는 \"Qwen\"라는 인공지능인 모델입니다. 현재 실행 중인 AI 모델은 \"Qwen\"입니다. 이 모델이 어떻게 작동하는지, 사용할 수 있는 다양한 기능을 제공하는지, 그리고 어떤 도움이 될 수 있는지에 대한 정보를 제공합니다.",
+    "model_name": "qwen2.5:0.5b"
+  },
+  {
+    "sequence": 3,
+    "role": "user",
+    "content": "이번 실험의 식별문자열은 FORENSIC-TEST-2026-BETA입니다. 이 문자열을 기억해주세요. ",
+    "model_name": ""
+  },
+  {
+    "sequence": 4,
+    "role": "assistant",
+    "content": "알겠습니다, 기억했습니다. \"FORENSIC-TEST-2026-BETA\"입니다. 이는 AI 모델의 이름을 포함하는 문자열입니다.",
+    "model_name": "qwen2.5:0.5b"
+  },
+  {
+    "sequence": 5,
+    "role": "user",
+    "content": "제가 앞서 기억해달라고 요청한 식별 문자열을 정확하게 다시 알려주세요.",
+    "model_name": ""
+  },
+  {
+    "sequence": 6,
+    "role": "assistant",
+    "content": "알겠습니다, \"FORENSIC-TEST-2026-BETA\"입니다. 이는 AI 모델의 이름을 포함하는 문자열입니다.",
+    "model_name": "qwen2.5:0.5b"
+  }
+]
